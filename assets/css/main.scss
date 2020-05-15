@@ -1,5 +1,19 @@
 /* Utilities */
 
+@font-face {
+  font-family: "Poppins";
+  src: url(/assets/fonts/Poppins-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url(/assets/fonts/Poppins-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 $mainColor: #7651fd;
 $mainDarkened: darken($mainColor, 10%);
 
@@ -101,7 +115,7 @@ img {
 }
 
 .bg-landing {
-  background-image: url(/html/assets/images/brook-landing-new-slider-slide-bg.jpg);
+  background-image: url(/assets/images/compressed/brook-landing-new-slider-slide-bg-min.jpg);
 }
 
 .solid-white {
@@ -149,20 +163,6 @@ img {
       border-color: transparent;
     }
   }
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url(/html/assets/fonts/Poppins-Regular.ttf) format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PoppinsBold";
-  src: url(/html/assets/fonts/Poppins-Bold.ttf) format("truetype");
-  font-weight: bold;
-  font-style: normal;
 }
 
 /* Custom */
