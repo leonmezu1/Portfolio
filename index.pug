@@ -1,180 +1,181 @@
 doctype html
-head
-  title Leonardo Mezu Developer
-  meta(charset='UTF-8')
-  meta(name='viewport', content='width=device-width, initial-scale=1.0')
-  meta(name='keywords', content='Leonardo, Mezu, developer, web, developer, web-developer, freelance, front-end, frontend, backend, back-end, ruby, rails, ruby-on-rails')
-  meta(name='description' content='Leonardo Mezu is a software and automation engineer, focused on web, mobile, frontend, backend, react, javascript, node-js, ruby and ruby on rails development currently located in colombia available for freelance services')
-  meta(name='twitter:site', content='@leonmezu')
-  meta(name='viewport', content='width=device-width, initial-scale=1.0')
-  link(rel="stylesheet", href="/assets/css/all-min.css")
-  link(rel="stylesheet", href="/assets/css/bootstrap-min.css")
-  link(rel="stylesheet", href="/assets/css/main-min.css")
+html(lang='en' dir='ltr')
+  head
+    title Leonardo Mezu Developer
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='keywords', content='Leonardo, Mezu, developer, web, developer, web-developer, freelance, front-end, frontend, backend, back-end, ruby, rails, ruby-on-rails')
+    meta(name='description' content='Leonardo Mezu is a software and automation engineer, focused on web, mobile, frontend, backend, react, javascript, node-js, ruby and ruby on rails development currently located in colombia available for freelance services')
+    meta(name='twitter:site', content='@leonmezu')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel="stylesheet", href="/assets/css/all-min.css")
+    link(rel="stylesheet", href="/assets/css/bootstrap-min.css")
+    link(rel="stylesheet", href="/assets/css/main-min.css")
 
-body
-  header#header
-    nav#navi.navbar.navbar-expand-lg.navbar-light
-      a.navbar-brand(href='#home') Home
-      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
-        span.navbar-toggler-icon
-      #navbarNav.collapse.navbar-collapse
-        ul.navbar-nav.ml-auto.text-center
-          li.nav-item.mx-lg-3
-            a.nav-link(href='#aboutme') About me
-          li.nav-item.mx-lg-3
-            a.nav-link(href='#project') Projects
-          li.nav-item.mx-lg-3
-            a.nav-link(href='#services') Services
-          li.nav-item.mx-lg-3
-            a.nav-link(href='#blog') Blog
-          li.nav-item.mx-lg-3
-            a.nav-link(href='#contact') Contact
-  main
-    #mainwrapper(data-spy='scroll' data-target='navi' data-offset='0').container-fluid
-      #home.relate.d-flex.flex-column.flex-lg-row.mx-2.border-10.bg-landing
-        .left.d-flex.flex-column.p-4.justify-content-center
-          .hero-pre-title I'm Leonardo Mezu
-          #typer.hero.hero-title.typer I'm a
-            span(data-wait='2000' data-words=`[" developer", " creator", " solver!"]`).txt-type
-          .hero-caption Now that I got your attention, let's give a look around ...
-            //- .image
-              //- img(src="/assets/images/me.jpg", alt="me")#me.img-thumbnail.img-fluid.rounded-circle
-          .p.stack-hero.text-center.mt-4 Fullstack Ruby on Rails developer
-          .p.stack-hero.text-center.mb-4 Ruby on Rails | React | Flutter | Postgresql | Bootstrap | Git
-          .row.d-flex
-            .col-sm-4.col-lg-4.offset-sm-4
-              a(href="#contact").text-decoration-none
-                .btn.btn-block.btn-outline-custom.align-self-center.my-4 Contact me
-        .right.d-flex.flex-column.m-lg-5.m-md-4.border-20
-          .inner.d-block.m-4.p-3.bg-white.border-20
-            img(src="/assets/images/svg/undraw_web_developer_p3e5.svg", alt="Dev")
-      .go-down
-        .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
-          .bounce1
-          .bounce2
-          .bounce3
-      .container.about-me
-        #aboutme.header-title.pb-4.mx-auto.mb-5.text-center About me
-        .row.hero-me.d-flex
-          .left-me-1.col-sm-12.col-lg-6
-            img(src="/assets/images/svg/undraw_developer_activity_bv83.svg", alt="Activity")
-          .right-me-1.col-sm-12.col-lg-6
-            h2.sentences.my-4 Lines with meaning...
-            p.fancy-hero I'm a software and automation engineer passionate about developing competent software that translates into business opportunities and, currently, I'm seeking new projects and open positions.
-            p.fancy-hero I'm confident that building,  understandable, scalable, and effective software is an excellent way to address much of the organizations' and society's needs while generating value in the process.
-        .row.hero-me.d-flex
-          .left-me-2.col-sm-12.col-lg-6
-            h2.sentences.my-4 The details
-            p.fancy-hero Pretty formal up there right?, let's break the ice, I'm a 26 years old Colombian guy who loves to discover new perspectives for everyday situations, I think I'm the engaged type of person since I can't get enough of something when I'm really into it.
-            p.fancy-hero Some facts about me:
-            p.fancy-hero I drink alarming amounts of coffee and I find hiking and meditation the most curative soul therapies.
-          .right-me-2.col-sm-12.col-lg-6.p-3
-              ul.info-container.list-unstyled.border-10.my-5.p-3
-                li.data-element
-                  i.fas.fa-map-marked-alt
-                  span.item.mx-3 Current location:
-                  span.p-info.align-self-start.pt-1 Popayán, Cauca, Colombia
-                li.data-element.my-5
-                  i.fas.fa-laptop-code
-                  span.item.mx-3 Stack:
-                  span.p-info Ruby, Ruby on Rails, JS, ES6, React, Matlab, Pg-SQL, Mongo-db
-                li.data-element
-                  i.fas.fa-eye
-                  span.item.mx-3 Interests:
-                  span.p-info House music, Android & iOS development, Video Games, Cycling, Hiking, Food
-      .go-down
-        .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
-          .bounce1
-          .bounce2
-          .bounce3
-      .container-fluid.portfolio
-        #project.header-title.pb-4.mx-auto.mb-5.text-center Featured projects
-          #project-grid.mt-5
-            #axel.project
-              .project-img
-                a(href="https://raw.githack.com/leonmezu1/Second-Capstone-for-Microverse/New--Beta/index.html" target="_blank" rel="noreferrer noopener").text-decoration-none
-                  i.fas.fa-link.hover-link.position-absolute
-                  img(src="/assets/images/compressed/axel-light-no-shadow.png", alt="Axel").shadow-lg
-              .project-caption
-                h3.caption Shoes Store
-            #newsweek.project
-              .project-img
-                a(href="https://raw.githack.com/leonmezu1/Working-with-bootstrap-4-Microverse-Project/Beta/index.html" target="_blank" rel="noreferrer noopener").text-decoration-none
-                  i.fas.fa-link.hover-link.position-absolute
-                  img(src="/assets/images/compressed/news-light-no-shadow.png", alt="NewsWeek").shadow-lg
-              .project-caption
-                h3.caption News Week Clone
-            #slackbot.project
-              .project-img
-                a(href="https://github.com/leonmezu1/Bot-Capstone" target="_blank" rel="noreferrer noopener").text-decoration-none
-                  i.fas.fa-link.hover-link.position-absolute
-                  img(src="/assets/images/compressed/slackbot-light-no-shadow.png", alt="SlackBot").shadow-lg
-              .project-caption
-                h3.caption Ruby Ruby-bot Slack Bot
-            #twiclone.project
-              .project-img
-                a(href="https://chirping-bird.herokuapp.com/" target="_blank" rel="noreferrer noopener").text-decoration-none
-                  i.fas.fa-link.hover-link.position-absolute
-                  img(src="/assets/images/compressed/twiclone-light-no-shadow.png", alt="Twiclone").shadow-lg
-              .project-caption
-                h3.caption Chirp-it! a rails Twitter Clone
-      .go-down
-        .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
-          .bounce1
-          .bounce2
-          .bounce3
-      .container-fluid.services
-        #services.header-title.pb-4.mx-auto.mb-5.text-center Services
-        #services-grid.mt-5.text-center
-          .service-img.mr-lg-5
-            img#service-img(src="/assets/images/svg/undraw_in_sync_xwsa.svg", alt="services")
-          .service
-            .card.shadow-lg.border-0.border-20
-              .icon-container.d-flex.justify-content-center.align-items-center
-                i.fas.fa-code.showcase-icon
-              .card-body
-                h5.card-title Front End Development
-                p.card-text Stunning and beautiful responsive pages
-          .service
-            .card.shadow-lg.border-0.border-20
-              .icon-container.d-flex.justify-content-center.align-items-center
-                i.fas.fa-server.showcase-icon
-              .card-body
-                h5.card-title Back End Development
-                p.card-text Robust server side solutions based on Rails ~ Nodejs
-          .service
-            .card.shadow-lg.border-0.border-20
-              .icon-container.d-flex.justify-content-center.align-items-center
-                i.fas.fa-glasses.showcase-icon
-              .card-body
-                h5.card-title Consultancy Services
-                p.card-text Debug and troubleshoot your projects
-      .go-down
-        .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
-          .bounce1
-          .bounce2
-          .bounce3
-      .container.blog.d-block
-        #blog.header-title.pb-4.mx-auto.mb-5.text-center Blog
-          h2.sentences.my-4 Blog entries
-          img(src="/assets/images/svg/undraw_code_thinking_1jeh.svg", alt="thinking")
-      .go-down
-        .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
-          .bounce1
-          .bounce2
-          .bounce3
-      .container.contact.d-flex.flex-column.align-items-center
-        #contact.header-title.pb-4.mx-auto.mb-5.text-center Contact
-        h4.contact-me.text-center Click on any of the links below.
-        .contact-container.d-flex.justify-content-center.p-5
-          a#linked(href="https://www.linkedin.com/in/leonardomezlob/" target="_blank" rel="noreferrer noopener" aria-label="Linked-in").text-decoration-none
-            i.contact-icon.fab.fa-linkedin-in
-          a#github(href="https://github.com/leonmezu1" target="_blank" rel="noreferrer noopener" aria-label="Github").text-decoration-none
-            i.contact-icon.fab.fa-github
-          a#twitter(href="https://twitter.com/leonmezu" target="_blank" rel="noreferrer noopener" aria-label="Twitter").text-decoration-none
-            i.contact-icon.fab.fa-twitter
-          a#email-icon(href="mailto: leo7xs@gmail.com" target="_blank" rel="noreferrer noopener" aria-label="Mail to me").text-decoration-none
-            i.contact-icon.fas.fa-envelope
-script(src="/assets/js/jquery-3.5.1.min.js")
-script(src="/assets/js/bootstrap.bundle.js")
-script(src="/assets/js/app.js")
+  body
+    header#header
+      nav#navi.navbar.navbar-expand-lg.navbar-light
+        a.navbar-brand(href='#home') Home
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarNav.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto.text-center
+            li.nav-item.mx-lg-3
+              a.nav-link(href='#aboutme') About me
+            li.nav-item.mx-lg-3
+              a.nav-link(href='#project') Projects
+            li.nav-item.mx-lg-3
+              a.nav-link(href='#services') Services
+            li.nav-item.mx-lg-3
+              a.nav-link(href='#blog') Blog
+            li.nav-item.mx-lg-3
+              a.nav-link(href='#contact') Contact
+    main
+      #mainwrapper(data-spy='scroll' data-target='navi' data-offset='0').container-fluid
+        #home.relate.d-flex.flex-column.flex-lg-row.mx-2.border-10.bg-landing
+          .left.d-flex.flex-column.p-4.justify-content-center
+            .hero-pre-title I'm Leonardo Mezu
+            #typer.hero.hero-title.typer I'm a
+              span(data-wait='2000' data-words=`[" developer", " creator", " solver!"]`).txt-type
+            .hero-caption Now that I got your attention, let's give a look around ...
+              //- .image
+                //- img(src="/assets/images/me.jpg", alt="me")#me.img-thumbnail.img-fluid.rounded-circle
+            .p.stack-hero.text-center.mt-4 Fullstack Ruby on Rails developer
+            .p.stack-hero.text-center.mb-4 Ruby on Rails | React | Flutter | Postgresql | Bootstrap | Git
+            .row.d-flex
+              .col-sm-4.col-lg-4.offset-sm-4
+                a(href="#contact").text-decoration-none
+                  .btn.btn-block.btn-outline-custom.align-self-center.my-4 Contact me
+          .right.d-flex.flex-column.m-lg-5.m-md-4.border-20
+            .inner.d-block.m-4.p-3.bg-white.border-20
+              img(src="/assets/images/svg/undraw_web_developer_p3e5.svg", alt="Dev")
+        .go-down
+          .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
+            .bounce1
+            .bounce2
+            .bounce3
+        .container.about-me
+          #aboutme.header-title.pb-4.mx-auto.mb-5.text-center About me
+          .row.hero-me.d-flex
+            .left-me-1.col-sm-12.col-lg-6
+              img(src="/assets/images/svg/undraw_developer_activity_bv83.svg", alt="Activity")
+            .right-me-1.col-sm-12.col-lg-6
+              h2.sentences.my-4 Lines with meaning...
+              p.fancy-hero I'm a software and automation engineer passionate about developing competent software that translates into business opportunities and, currently, I'm seeking new projects and open positions.
+              p.fancy-hero I'm confident that building,  understandable, scalable, and effective software is an excellent way to address much of the organizations' and society's needs while generating value in the process.
+          .row.hero-me.d-flex
+            .left-me-2.col-sm-12.col-lg-6
+              h2.sentences.my-4 The details
+              p.fancy-hero Pretty formal up there right?, let's break the ice, I'm a 26 years old Colombian guy who loves to discover new perspectives for everyday situations, I think I'm the engaged type of person since I can't get enough of something when I'm really into it.
+              p.fancy-hero Some facts about me:
+              p.fancy-hero I drink alarming amounts of coffee and I find hiking and meditation the most curative soul therapies.
+            .right-me-2.col-sm-12.col-lg-6.p-3
+                ul.info-container.list-unstyled.border-10.my-5.p-3
+                  li.data-element
+                    i.fas.fa-map-marked-alt
+                    span.item.mx-3 Current location:
+                    span.p-info.align-self-start.pt-1 Popayán, Cauca, Colombia
+                  li.data-element.my-5
+                    i.fas.fa-laptop-code
+                    span.item.mx-3 Stack:
+                    span.p-info Ruby, Ruby on Rails, JS, ES6, React, Matlab, Pg-SQL, Mongo-db
+                  li.data-element
+                    i.fas.fa-eye
+                    span.item.mx-3 Interests:
+                    span.p-info House music, Android & iOS development, Video Games, Cycling, Hiking, Food
+        .go-down
+          .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
+            .bounce1
+            .bounce2
+            .bounce3
+        .container-fluid.portfolio
+          #project.header-title.pb-4.mx-auto.mb-5.text-center Featured projects
+            #project-grid.mt-5
+              #axel.project
+                .project-img
+                  a(href="https://raw.githack.com/leonmezu1/Second-Capstone-for-Microverse/New--Beta/index.html" target="_blank" rel="noreferrer noopener").text-decoration-none
+                    i.fas.fa-link.hover-link.position-absolute
+                    img(src="/assets/images/compressed/axel-light-no-shadow.png", alt="Axel").shadow-lg
+                .project-caption
+                  h3.caption Shoes Store
+              #newsweek.project
+                .project-img
+                  a(href="https://raw.githack.com/leonmezu1/Working-with-bootstrap-4-Microverse-Project/Beta/index.html" target="_blank" rel="noreferrer noopener").text-decoration-none
+                    i.fas.fa-link.hover-link.position-absolute
+                    img(src="/assets/images/compressed/news-light-no-shadow.png", alt="NewsWeek").shadow-lg
+                .project-caption
+                  h3.caption News Week Clone
+              #slackbot.project
+                .project-img
+                  a(href="https://github.com/leonmezu1/Bot-Capstone" target="_blank" rel="noreferrer noopener").text-decoration-none
+                    i.fas.fa-link.hover-link.position-absolute
+                    img(src="/assets/images/compressed/slackbot-light-no-shadow.png", alt="SlackBot").shadow-lg
+                .project-caption
+                  h3.caption Ruby Ruby-bot Slack Bot
+              #twiclone.project
+                .project-img
+                  a(href="https://chirping-bird.herokuapp.com/" target="_blank" rel="noreferrer noopener").text-decoration-none
+                    i.fas.fa-link.hover-link.position-absolute
+                    img(src="/assets/images/compressed/twiclone-light-no-shadow.png", alt="Twiclone").shadow-lg
+                .project-caption
+                  h3.caption Chirp-it! a rails Twitter Clone
+        .go-down
+          .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
+            .bounce1
+            .bounce2
+            .bounce3
+        .container-fluid.services
+          #services.header-title.pb-4.mx-auto.mb-5.text-center Services
+          #services-grid.mt-5.text-center
+            .service-img.mr-lg-5
+              img#service-img(src="/assets/images/svg/undraw_in_sync_xwsa.svg", alt="services")
+            .service
+              .card.shadow-lg.border-0.border-20
+                .icon-container.d-flex.justify-content-center.align-items-center
+                  i.fas.fa-code.showcase-icon
+                .card-body
+                  h5.card-title Front End Development
+                  p.card-text Stunning and beautiful responsive pages
+            .service
+              .card.shadow-lg.border-0.border-20
+                .icon-container.d-flex.justify-content-center.align-items-center
+                  i.fas.fa-server.showcase-icon
+                .card-body
+                  h5.card-title Back End Development
+                  p.card-text Robust server side solutions based on Rails ~ Nodejs
+            .service
+              .card.shadow-lg.border-0.border-20
+                .icon-container.d-flex.justify-content-center.align-items-center
+                  i.fas.fa-glasses.showcase-icon
+                .card-body
+                  h5.card-title Consultancy Services
+                  p.card-text Debug and troubleshoot your projects
+        .go-down
+          .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
+            .bounce1
+            .bounce2
+            .bounce3
+        .container.blog.d-block
+          #blog.header-title.pb-4.mx-auto.mb-5.text-center Blog
+            h2.sentences.my-4 Blog entries
+            img(src="/assets/images/svg/undraw_code_thinking_1jeh.svg", alt="thinking")
+        .go-down
+          .spinner2.d-flex.flex-column.align-items-center.mx-auto.my-5
+            .bounce1
+            .bounce2
+            .bounce3
+        .container.contact.d-flex.flex-column.align-items-center
+          #contact.header-title.pb-4.mx-auto.mb-5.text-center Contact
+          h4.contact-me.text-center Click on any of the links below.
+          .contact-container.d-flex.justify-content-center.p-5
+            a#linked(href="https://www.linkedin.com/in/leonardomezlob/" target="_blank" rel="noreferrer noopener" aria-label="Linked-in").text-decoration-none
+              i.contact-icon.fab.fa-linkedin-in
+            a#github(href="https://github.com/leonmezu1" target="_blank" rel="noreferrer noopener" aria-label="Github").text-decoration-none
+              i.contact-icon.fab.fa-github
+            a#twitter(href="https://twitter.com/leonmezu" target="_blank" rel="noreferrer noopener" aria-label="Twitter").text-decoration-none
+              i.contact-icon.fab.fa-twitter
+            a#email-icon(href="mailto: leo7xs@gmail.com" target="_blank" rel="noreferrer noopener" aria-label="Mail to me").text-decoration-none
+              i.contact-icon.fas.fa-envelope
+  script(src="/assets/js/jquery-3.5.1.min.js")
+  script(src="/assets/js/bootstrap.bundle.min.js")
+  script(src="/assets/js/app.min.js")
