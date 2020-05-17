@@ -4,6 +4,7 @@
   src: url(/assets/fonts/Poppins-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -11,6 +12,7 @@
   src: url(/assets/fonts/Poppins-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 html {
