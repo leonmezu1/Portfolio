@@ -206,11 +206,6 @@ img {
   font: 18px/30px Poppins, sans-serif;
 }
 
-.go-down {
-  /* Start Spinner 2 */
-  /* End spinner 2 */
-}
-
 .go-down .spinner2 {
   width: 70px;
   text-align: center;
@@ -417,8 +412,8 @@ img {
 #services-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 35% (20%)[3];
-      grid-template-columns: 35% repeat(3, 20%);
+  -ms-grid-columns: 35% 20% 20% 20%;
+      grid-template-columns: 35% 20% 20% 20%;
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   -webkit-box-pack: center;
